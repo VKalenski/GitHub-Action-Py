@@ -1,5 +1,3 @@
 # GitHub-Action-Py
 
-pip install Flask
-
-pip install --upgrade pip
+Source: https://www.youtube.com/watch?v=UEOtZvTCmDo
