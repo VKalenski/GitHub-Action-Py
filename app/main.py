@@ -12,7 +12,7 @@ def return_backwards_string(random_string):
 
 @app.route('/get-mode')
 def get_mode():
-    return os.environ("MODE")
+    return os.environ.get("MODE")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
